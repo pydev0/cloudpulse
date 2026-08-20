@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Mail, MapPin, Clock } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import ContactForm from "@/components/ContactForm";
 import FadeIn from "@/components/FadeIn";
@@ -10,11 +10,6 @@ const contactInfo = [
     icon: MapPin,
     title: "Office",
     details: ["9toTHRIVE, Plot no. 28, Vittal Rao Nagar", "Madhapur, Hyderabad, Telangana 500081"],
-  },
-  {
-    icon: Phone,
-    title: "Phone",
-    details: ["+1 (555) 123-4567"],
   },
   {
     icon: Mail,

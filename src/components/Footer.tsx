@@ -1,11 +1,10 @@
 import Link from "next/link";
-import { Zap, Mail, Phone, MapPin } from "lucide-react";
+import { Zap, Mail, MapPin } from "lucide-react";
 
 const quickLinks = [
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/portfolio", label: "Portfolio" },
-  { href: "/contact", label: "Contact" },
 ];
 
 const serviceLinks = [
@@ -72,10 +71,6 @@ export default function Footer() {
               <li className="flex items-start gap-2.5 text-sm text-gray-500">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0 text-gray-600" />
                 <span>9toTHRIVE, Plot no. 28, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081</span>
-              </li>
-              <li className="flex items-center gap-2.5 text-sm text-gray-500">
-                <Phone className="h-4 w-4 shrink-0 text-gray-600" />
-                +1 (555) 123-4567
               </li>
               <li className="flex items-center gap-2.5 text-sm text-gray-500">
                 <Mail className="h-4 w-4 shrink-0 text-gray-600" />
